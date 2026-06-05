@@ -1,0 +1,62 @@
+### CUSTOM ###
+application-local.yml
+tmp
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Python / fin-advisor ###
+fin-advisor/.venv/
+fin-advisor/__pycache__/
+fin-advisor/**/__pycache__/
+fin-advisor/.env
+fin-advisor/data/sessions/*
+fin-advisor/data/runs/*
+fin-advisor/data/checkpoints/*
+!fin-advisor/data/sessions/.gitkeep
+!fin-advisor/data/runs/.gitkeep
+!fin-advisor/data/checkpoints/.gitkeep
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+### Node / 前端 ###
+yu-ai-agent-frontend/node_modules/
+yu-ai-agent-frontend/dist/
+.env
+.env.local
+*.log

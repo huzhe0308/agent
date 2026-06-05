@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fin-calc": {
+      "command": "python",
+      "args": ["mcp/fin_calc_server.py"]
+    }
+  }
+}

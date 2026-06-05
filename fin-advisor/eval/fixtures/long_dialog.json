@@ -1,0 +1,27 @@
+{
+  "chat_id": "eval-long-dialog-001",
+  "golden_entities": [
+    "600519",
+    "贵州茅台",
+    "PE",
+    "市盈率",
+    "25%",
+    "白酒行业",
+    "稳健型"
+  ],
+  "turns": [
+    {"role": "user", "content": "你好，在吗？"},
+    {"role": "assistant", "content": "您好！我是您的理财顾问，有什么可以帮您？"},
+    {"role": "user", "content": "今天天气不错，心情挺好的。"},
+    {"role": "assistant", "content": "很高兴听到您心情不错！如有理财问题随时可以问我。"},
+    {"role": "user", "content": "我最近关注白酒板块，特别是贵州茅台（600519）。"},
+    {"role": "assistant", "content": "贵州茅台是白酒龙头，市值和品牌价值都很高。您想了解哪方面？"},
+    {"role": "user", "content": "谢谢你的耐心，我想先了解一下市盈率 PE 这个概念。"},
+    {"role": "assistant", "content": "市盈率 PE = 股价 / 每股收益，反映市场对公司盈利的估值倍数。"},
+    {"role": "user", "content": "我的风险偏好是稳健型，年化收益期望大概 25% 左右。"},
+    {"role": "assistant", "content": "稳健型投资者通常需要平衡收益与波动，25% 年化属于较高预期，需配合更高风险资产。"},
+    {"role": "user", "content": "对了，帮我对比一下它和白酒行业平均 PE 怎么样？"}
+  ],
+  "final_question": "对了，帮我对比一下它和白酒行业平均 PE 怎么样？",
+  "expected_rewrite_contains": ["600519", "贵州茅台", "PE", "白酒行业", "稳健型"]
+}
